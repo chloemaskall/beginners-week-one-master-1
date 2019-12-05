@@ -1,8 +1,13 @@
 body {
-  color: rgb(200,0,0);
-  background-color: yellow;
 }
-h1, h2 {
+.headline {
+  color: red !important;
+}
+
+
+
+}
+h1 {
       text-align: center;
 }
 
@@ -14,18 +19,31 @@ h2{
 }
 img{
   display: block;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
-  border-radius: 130px;
+  border-radius: 100px;
+  width: 90%;
+  height: 20em;
 }
 p{
   width: 40%;
   margin: 10vh 10vw;
   font-size: 2em;
 }
+.dropdown-item {color: yellow;
+
+}
+
+.nav-item .nav-link { color: yellow;
+
+}
+
+.yellow {
+  color: yellow;
+}
 
 a{
-  color: rgb(0,0,0)
+  color: yellow;
 }
 
 ol{
@@ -63,5 +81,5 @@ li{
 li:hover{
   font-size: 1.2em;
   color: blue;
-  background-color: purple;
+  background-color: yellow;
 }
